@@ -168,8 +168,4 @@ Some of the changes include:
 | Display | O(n) |
 
 ## Author
-
-**Debasish Rabha**
-
-B.Tech in Computer Science and Engineering  
-Jorhat Engineering College
+Sanjyoti Das
