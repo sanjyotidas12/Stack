@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Queue Using Array</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Queue Using Array</h1>
+
+        <p class="subtitle">
+            Data Structure Demonstration
+        </p>
+
+        <!-- Queue Information -->
+        <div class="info-box">
+
+            <div>
+                <strong>Data Structure:</strong>
+                Queue
+            </div>
+
+            <div>
+                <strong>Implementation:</strong>
+                Array
+            </div>
+
+            <div>
+                <strong>Principle:</strong>
+                FIFO
+            </div>
+
+            <div>
+                <strong>Capacity:</strong>
+                <span id="capacityDisplay">5</span>
+            </div>
+
+        </div>
+
+
+        <!-- Input Section -->
+        <div class="input-section">
+
+            <label for="valueInput">
+                Enter a value
+            </label>
+
+            <input type="number" id="valueInput" placeholder="Enter number">
+
+        </div>
+
+
+        <!-- Buttons -->
+        <div class="button-section">
+
+            <button id="insertBtn">
+                Insert
+            </button>
+
+            <button id="deleteBtn">
+                Delete
+            </button>
+
+            <button id="searchBtn">
+                Search
+            </button>
+
+            <button id="displayBtn">
+                Display
+            </button>
+
+        </div>
+
+
+        <!-- Message -->
+        <div id="message" class="message">
+            Queue is ready.
+        </div>
+
+
+        <!-- Queue Display -->
+        <div class="queue-section">
+
+            <h2>Current Queue</h2>
+
+            <div id="queueContainer" class="queue-container">
+                <!-- Queue elements will be generated here -->
+            </div>
+
+        </div>
+
+
+        <!-- Front and Rear -->
+        <div class="pointer-section">
+
+            <div class="pointer">
+                <strong>Front</strong>
+                <span id="frontValue">-1</span>
+            </div>
+
+            <div class="pointer">
+                <strong>Rear</strong>
+                <span id="rearValue">-1</span>
+            </div>
+
+        </div>
+
+
+        <!-- Queue Status -->
+        <div class="status-section">
+
+            <p>
+                Queue Size:
+                <strong id="sizeValue">0</strong>
+            </p>
+
+            <p>
+                Queue Status:
+                <strong id="statusValue">Empty</strong>
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+```
